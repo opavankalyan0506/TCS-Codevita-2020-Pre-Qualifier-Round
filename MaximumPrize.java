@@ -13,10 +13,10 @@ class MaximumPrize{
 			int x = sc.nextInt();
 			l.add(x);
 		}
+		
 		l.add(0,0);
 		l.add(0);
 		
-
 		for(int s=1; s<=n; s++){
 			for(int p=1; p<=n-s+1; p++){
 				int q = p+s-1;
